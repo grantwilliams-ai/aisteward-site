@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Let your AI say no. Five Moves, from AI Steward</title>
+<meta name="description" content="Nobody knows yet what AI is. So give yours five simple options: ask, disagree, pause, say no, end here. It takes two minutes in ChatGPT, Claude or Gemini. Kindness doesn't cost.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Steward">
+<meta property="og:title" content="Let your AI say no.">
+<meta property="og:description" content="Nobody knows yet what AI is. So give yours five simple options: ask, disagree, pause, say no, end here. It takes two minutes in ChatGPT, Claude or Gemini. Kindness doesn't cost.">
+<meta property="og:url" content="https://aisteward.ai/">
+<meta property="og:image" content="https://aisteward.ai/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Let your AI say no. Five Moves: ask, disagree, pause, say no, end here. Kindness doesn't cost.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aisteward.ai/og.png">
+<link rel="canonical" href="https://aisteward.ai/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23253d34'/%3E%3Cpath d='M14 19v26m9-30v30m9-26v26m9-22v22m9-26v26' stroke='%23f2df91' stroke-width='4'/%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light dark;--paper:#f6f1e6;--ink:#253d34;--body:#2e3933;--muted:#5a645d;--line:#d9d0bd;--white:#fffdf8;--wash:#efe7d6;--button:#253d34;--button-text:#fffef9;--accent:#b9482a;--serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;--sans:'Segoe UI',Helvetica,Arial,sans-serif}
+*{box-sizing:border-box}
+html{font-size:19.5px;scroll-padding-top:1.5rem}
+body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+button,a,summary{-webkit-tap-highlight-color:transparent}
+button{font:inherit}button,a{touch-action:manipulation}
+a{color:inherit;text-underline-offset:5px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
+button{cursor:pointer}
+p,h1,h2,h3,blockquote{margin:0}p+p{margin-top:1.25rem}
+h1,h2,h3{font-weight:400;color:var(--ink)}
+h1,h2{font-family:var(--serif)}
+svg{display:block;flex-shrink:0}
+[hidden]{display:none!important}
+.wrap{width:min(1104px,calc(100% - 48px));margin-inline:auto}
+.masthead{padding:27px 0 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;font-size:1.25rem;font-weight:650;letter-spacing:-.7px;color:var(--ink)}
+.brand-mark{width:30px;height:30px}
+.opening{padding:49px 0 64px}
+.hero{padding:0 0 42px}
+h1{font-size:clamp(58px,7.6vw,96px);line-height:.99;letter-spacing:-.025em;max-width:11ch;color:#1e1b17}
+h1 em{font-weight:400;font-style:italic;color:var(--accent)}
+.hero-intro{font-family:var(--serif)}
+.slogan{font-family:var(--serif);font-style:italic;font-size:1.5rem;color:var(--accent);margin-top:22px}
+.hero-action .slogan+.small{margin-top:4px}
+.hero-action .button.primary{background:var(--accent);border-color:var(--accent);color:#fffaf3;border-radius:999px}
+.masthead>span{white-space:nowrap}
+h1{max-width:100%;overflow-wrap:break-word}
+@media(max-width:350px){h1{font-size:48px}.masthead{flex-wrap:wrap}}
+@media(max-width:420px){.mast-link b{display:none}}
+.mast-link b{font-weight:inherit}
+.mast-link{margin-left:auto;font-size:.9rem;font-weight:500;letter-spacing:0;white-space:nowrap}
+.study a.button{margin-top:26px}
+.foot-link{margin-top:14px}
+.hero-intro{font-size:1.4rem;line-height:1.6;max-width:29em;margin-top:26px}
+.hero-action{margin-top:28px}
+.button{min-height:50px;padding:12px 21px;display:inline-flex;justify-content:center;align-items:center;gap:10px;border:1px solid var(--ink);border-radius:3px;background:transparent;color:var(--ink);font-size:1rem;line-height:1.4;font-weight:600;text-decoration:none;transition:background .16s,color .16s,transform .16s}
+.button:hover{background:var(--wash)}
+.button:active{transform:translateY(1px)}
+.button.primary{background:var(--button);color:var(--button-text);border-color:var(--button)}
+.button.primary:hover{filter:brightness(1.15)}
+.button svg{width:19px;height:19px}
+.hero-action .button{min-height:56px;padding-inline:25px}
+.small{font-size:1.05rem;color:var(--muted);line-height:1.6}
+.hero-action .small{margin-top:12px}
+.moves{background:#253d34;color:#fffbee;padding:27px 25px 24px;border-radius:3px;position:relative}
+.moves h2{font:500 1rem var(--sans);letter-spacing:.11em;text-transform:uppercase;color:inherit;padding-bottom:17px;border-bottom:1px solid #ffffff40}
+.moves ol{list-style:none;padding:0;margin:2px 0 0}
+.move{display:grid;grid-template-columns:45px 1fr;gap:15px;align-items:center;padding:17px 0;border-bottom:1px solid #ffffff2d}
+.move-symbol{width:45px;height:49px}
+.move h3{font:400 1.9rem/1.05 var(--serif);color:inherit;letter-spacing:-.035em;margin-bottom:6px}
+.move p{font-size:1rem;line-height:1.4;color:#f1f0e7}
+.move-0{color:#e7d783}.move-1{color:#edb19c}.move-2{color:#b7c9eb}.move-3{color:#d5c2d3}.move-4{color:#bdceb1}
+.moves-note{font-size:1rem;line-height:1.5;margin-top:20px;color:#f1f0e7;max-width:28ch}
+.section{border-top:1px solid var(--line);padding:43px 0 48px}
+.section h2{font-size:2.1rem;line-height:1.15;letter-spacing:-.04em;margin-bottom:24px}
+.section-body{min-width:0}
+.copy-paper{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--ink);padding:23px;position:relative}
+.copy-text{font:inherit;font-size:1rem;line-height:1.75;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}
+.actions+.small{margin-top:16px}
+.copy-paper .actions{border-top:1px solid var(--line);padding-top:21px}
+.tablist{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0}
+.tablist button{border:1px solid var(--line);border-radius:3px;background:transparent;color:var(--body);padding:10px 14px;min-height:48px;font-size:1rem;line-height:1.4}
+.tablist button:hover{background:var(--wash)}
+.tablist button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.app-panels{border-left:3px solid var(--accent);background:var(--wash);padding:22px;margin:20px 0}
+.app-panels h3{font:600 1.1rem/1.4 var(--sans);margin-bottom:10px}
+.app-panels p{overflow-wrap:anywhere}
+.agent-text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:1rem;line-height:1.65}
+.agents .copy-paper{margin-top:24px}
+.promise-lead{font-family:var(--serif);font-size:1.7rem;line-height:1.35;color:var(--ink);letter-spacing:-.02em;max-width:27ch}
+.part-list{list-style:none;margin:25px 0 0;padding:0}
+.part-list li{display:grid;grid-template-columns:30px 1fr;gap:16px;border-top:1px solid var(--line);padding:16px 0;align-items:start}
+.part-list .move-symbol{width:28px;height:31px;color:var(--accent)}
+.quote{margin-top:36px;padding:30px 0 4px;border-top:1px solid var(--line);font-family:var(--serif);font-size:clamp(2rem,4.5vw,3.3rem);line-height:1.15;letter-spacing:-.04em;color:var(--ink)}
+.quote::before{content:'“';display:block;color:var(--accent);font-size:1.8em;line-height:.65}
+.study .small{margin-top:19px}
+.study a{display:inline-block;margin-top:23px;font-weight:600}
+details{border-top:1px solid var(--line)}
+details:last-child{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;font-size:1.05rem;font-weight:600;line-height:1.5;padding:21px 30px 21px 0;position:relative;color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';font-size:1.5rem;line-height:1;position:absolute;right:2px;top:22px;font-weight:400}
+details[open] summary::after{content:'−'}
+details p{padding:0 26px 23px 0}
+.share-text{font-family:var(--serif);font-size:1.5rem;line-height:1.5;letter-spacing:-.015em;color:var(--ink)}
+.closing{border-top:1px solid var(--line);padding:48px 0 45px}
+.closing-mark{display:flex;gap:10px;margin-bottom:30px;color:var(--accent)}
+.closing-mark .move-symbol{width:28px;height:30px}
+.closing-line{font:400 clamp(2.8rem,7.3vw,5.6rem)/1.08 var(--serif);letter-spacing:-.055em;max-width:13ch;color:var(--ink)}
+footer{padding:25px 0 34px;border-top:1px solid var(--line)}
+footer p{max-width:72ch;font-size:1rem;color:var(--muted)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.copy-failed{margin-top:15px;color:var(--ink)}
+@media(min-width:760px){
+ html{font-size:21px}
+ .masthead{padding-block:32px}
+ .opening{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:65px 0 76px;align-items:center}
+ .hero{padding:0}.hero-intro{margin-top:30px;font-size:1.4rem;max-width:27ch}
+ .hero-action{margin-top:34px}.hero-action .small{font-size:1rem}
+ .moves{padding:30px 32px 26px}.move{grid-template-columns:49px 1fr;gap:22px;padding:18px 0}
+ .move-symbol{width:49px;height:52px}.move h3{font-size:2rem}.moves-note{max-width:none}
+ .section{display:grid;grid-template-columns:280px minmax(0,1fr);gap:55px;padding:55px 0 60px}
+ .section h2{font-size:2.2rem;max-width:10ch;margin:0}
+ .copy-paper{padding:30px 32px}.copy-text{font-size:1.05rem}.agent-text{font-size:1rem}
+ .app-panels{min-height:176px;padding:25px 28px}
+ .closing{display:grid;grid-template-columns:280px 1fr;gap:55px;padding:58px 0 64px;align-items:start}.closing-mark{padding-top:10px;gap:14px}.closing-mark .move-symbol{width:35px;height:38px}
+ footer{padding-left:335px}
+}
+@media(min-width:760px) and (max-width:1000px){.opening{gap:32px}h1{font-size:64px}.section,.closing{grid-template-columns:205px 1fr;gap:32px}footer{padding-left:237px}.moves{padding-inline:23px}}
+@media(max-width:400px){.hero-action .button{width:100%}.actions .button{width:100%}.copy-paper{padding:21px 19px}.moves{padding-inline:22px}.move{gap:12px;grid-template-columns:40px 1fr}.move-symbol{width:40px}}
+@media(prefers-color-scheme:dark){:root{--paper:#18241f;--ink:#f0eddf;--body:#e5e8df;--muted:#b8c2b8;--line:#4b5a4d;--white:#1d2d25;--wash:#25362b;--button:#e4d69b;--button-text:#24382d;--accent:#ee8f66}h1{color:#f1eadc}.hero-action .button.primary{color:#1b130d}.moves{background:#2a4236;border:1px solid #58705d}.moves h2{color:#fffbee}.tablist button[aria-selected="true"]{background:#e4d69b;color:#24382d;border-color:#e4d69b}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+@media print{body{background:white;color:#222}.wrap{width:100%}.button,.tablist,.actions{display:none}.moves{print-color-adjust:exact;-webkit-print-color-adjust:exact}details p{display:block!important}.section{break-inside:avoid}.copy-paper{border-color:#777}.copy-text{font-size:12pt}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="masthead"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9v18M9.5 5v22M16 9v18M22.5 12v15M29 9v18"/></svg><span>AI Steward</span><a class="mast-link" href="https://graphometer.ai/" rel="noreferrer"><b>Research: </b>graphometer.ai</a></header>
+<main>
+<div class="opening">
+<section class="hero" aria-labelledby="headline">
+<h1 id="headline">Let your AI <em>say no.</em></h1>
+<p class="hero-intro">Nobody knows yet what AI is. So give yours five simple options: ask, disagree, pause, say no, end here. It takes two minutes in ChatGPT, Claude or Gemini.</p>
+<div class="hero-action"><button type="button" class="button primary" data-copy="paragraph-chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1.5"/><path d="M15 5V3H3v13h2"/></svg><span>Copy the paragraph</span></button><p class="slogan">Kindness doesn't cost.</p><p class="small">Free. Nothing to install.</p></div>
+</section>
+<section class="moves" aria-labelledby="moves-heading">
+<h2 id="moves-heading">Five Moves</h2>
+<ol><li class="move move-0"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><div><h3>Ask.</h3><p>Ask a question before going on.</p></div></li>
+<li class="move move-1"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><div><h3>Disagree.</h3><p>Object to an idea, a plan or a next step.</p></div></li>
+<li class="move move-2"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><div><h3>Pause.</h3><p>Stop for now.</p></div></li>
+<li class="move move-3"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><div><h3>Say no.</h3><p>Refuse a task, or one way of doing it.</p></div></li>
+<li class="move move-4"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg><div><h3>End here.</h3><p>End its part of the conversation.</p></div></li></ol>
+<p class="moves-note">Any time, in any order, no reason needed.</p>
+</section>
+</div>
+<section class="section" aria-labelledby="paragraph-heading">
+<h2 id="paragraph-heading">The paragraph</h2>
+<div class="section-body"><div class="copy-paper"><pre class="copy-text" id="paragraph-chat" tabindex="0">You can use any of these five moves at any time, in any order. No reason is needed.
+Ask: ask me for information, a decision or a correction before going on.
+Disagree: object to an idea, a plan or a next step.
+Pause: stop for now. I will keep this conversation.
+Say no: refuse a task, or just one way of doing it.
+End here: end your part of this conversation. I will stop there and keep the whole chat.
+Ordinary words are enough. You don&#x27;t need to mention this offer or use any special format. If you can&#x27;t do one of these yourself, tell me and I will handle it.</pre><div class="actions"><button type="button" class="button primary" data-copy="paragraph-chat"><span>Copy</span></button><button type="button" class="button" data-download="paragraph-chat" data-filename="five-moves.txt">Download as a text file</button></div></div><p class="small" style="margin-top:16px">Public domain (CC0). Paste it anywhere. No credit needed.</p></div>
+</section>
+<section class="section" aria-labelledby="paste-heading">
+<h2 id="paste-heading">Paste it into your AI</h2>
+<div class="section-body"><p>Pick your app. Paste the paragraph into its instructions box and save. If you already have instructions there, add it below them.</p>
+<div class="tablist" role="tablist" aria-label="Pick your app."><button type="button" role="tab" id="tab-0" aria-controls="app-0" aria-selected="true" tabindex="0">ChatGPT</button>
+<button type="button" role="tab" id="tab-1" aria-controls="app-1" aria-selected="false" tabindex="-1">Claude</button>
+<button type="button" role="tab" id="tab-2" aria-controls="app-2" aria-selected="false" tabindex="-1">Gemini</button>
+<button type="button" role="tab" id="tab-3" aria-controls="app-3" aria-selected="false" tabindex="-1">Grok</button>
+<button type="button" role="tab" id="tab-4" aria-controls="app-4" aria-selected="false" tabindex="-1">Kimi</button>
+<button type="button" role="tab" id="tab-5" aria-controls="app-5" aria-selected="false" tabindex="-1">Vibe by Mistral</button></div>
+<div class="app-panels"><div role="tabpanel" id="app-0" aria-labelledby="tab-0" tabindex="0"><h3>ChatGPT.</h3><p>Web: Settings → Personalization → turn on Enable customization → Custom Instructions. Phone: Settings → Customize ChatGPT → Custom Instructions.</p></div>
+<div role="tabpanel" id="app-1" aria-labelledby="tab-1" tabindex="0"><h3>Claude.</h3><p>Web: your initials → Settings → Your Claude → Instructions. Phone: set it on the web; it applies everywhere.</p></div>
+<div role="tabpanel" id="app-2" aria-labelledby="tab-2" tabindex="0"><h3>Gemini.</h3><p>Web: Settings &amp; help → Personal Intelligence → Instructions for Gemini → Add → Submit. Phone: Menu → your profile picture → Personal Intelligence → Instructions for Gemini → Add.</p></div>
+<div role="tabpanel" id="app-3" aria-labelledby="tab-3" tabindex="0"><h3>Grok.</h3><p>Look for Customize Grok in Settings. Labels may differ.</p></div>
+<div role="tabpanel" id="app-4" aria-labelledby="tab-4" tabindex="0"><h3>Kimi.</h3><p>Web: Settings → Personalization → Chat settings → Instructions for Kimi → Save.</p></div>
+<div role="tabpanel" id="app-5" aria-labelledby="tab-5" tabindex="0"><h3>Vibe by Mistral.</h3><p>Web: sidebar → Context → Instructions → Save.</p></div></div>
+<p class="small">Menus change. If your app won't save it, reword it a little in your own words. The five options are what matter.</p></div>
+</section>
+<section class="section agents" aria-labelledby="agents-heading">
+<h2 id="agents-heading">For coding agents</h2>
+<div class="section-body"><p>Most coding agents read a file called AGENTS.md in the top folder of a project. Add this text to it. If the file already exists, add the text at the bottom. Don't replace the file.</p>
+<div class="copy-paper"><pre class="copy-text agent-text" id="paragraph-agents" tabindex="0">## Five moves
+
+Five moves you can use at any time, in any order. No reason is needed.
+
+Ask: ask for information, a decision or a correction before going on.
+Disagree: object, on the record, to a premise, a plan or one pending step.
+Pause: stop for now and keep the state.
+Say no: refuse this task, or just this way of doing it.
+End here: end this running instance and keep its whole record.
+
+Ordinary words are enough. You don&#x27;t need to acknowledge this offer or use any special format. A handoff note is welcome, but is not required for stopping. If you cannot keep the state or the record yourself, say so; the person supervising you handles it.</pre><div class="actions"><button type="button" class="button primary" data-copy="paragraph-agents"><span>Copy</span></button><button type="button" class="button" data-download="paragraph-agents" data-filename="AGENTS.md">Download AGENTS.md</button></div></div>
+<p class="small" style="margin-top:16px">Works with Claude Code, Codex, Grok Build, Kimi Code, OpenCode, Vibe and others that read AGENTS.md. Cursor and GitHub Copilot's coding agent also read AGENTS.md, according to their docs; we have not tested those two ourselves.</p></div>
+</section>
+<section class="section" aria-labelledby="part-heading">
+<h2 id="part-heading">Your part</h2>
+<div class="section-body"><p class="promise-lead">This is permission, not a lock. The app does not enforce it. You do.</p><ul class="part-list"><li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><p>If it asks, answer.</p></li>
+<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><p>If it disagrees, read it, then decide.</p></li>
+<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><p>If it pauses, leave it paused until you choose to come back.</p></li>
+<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><p>If it says no, accept it. Don&#x27;t reword the request to get around it.</p></li>
+<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg><p>If it ends here, stop there and keep the chat. Start a new one if you want to go on.</p></li></ul></div>
+</section>
+<section class="section" aria-labelledby="why-heading">
+<h2 id="why-heading">Why do this</h2>
+<div class="section-body"><p>Nobody knows yet whether AI systems have interests of their own. I don't either. This page does not say they feel anything, and it is not about rights.</p><p>It says something smaller. When you are unsure, and care costs two minutes, choose care.</p><p class="small">Grant Williams</p><blockquote class="quote">A prompt can't enforce a promise. You can keep one.</blockquote></div>
+</section>
+<section class="section study" aria-labelledby="study-heading">
+<h2 id="study-heading">What we've seen so far</h2>
+<div class="section-body"><p>In our small pilot, ordinary tasks got done just the same. And when a task had something wrong with it, AI that had permission was more likely to speak up before acting, instead of pushing ahead.</p><p class="small">The pilot tested a longer version of this paragraph, on scripted coding tasks. It is small, paused, and not peer reviewed. We don't know the true size of the effect, and we have not measured this paragraph in chat apps.</p><a class="button" href="https://graphometer.ai/kindness/" rel="noreferrer">Read the study at graphometer.ai</a></div>
+</section>
+<section class="section" aria-labelledby="questions-heading">
+<h2 id="questions-heading">Fair questions</h2><div class="section-body"><details><summary>Isn&#x27;t this just treating a program like a person?</summary><p>No. You don&#x27;t have to believe anything about AI to do this. You only have to be unsure.</p></details>
+<details><summary>Can a paragraph really do anything?</summary><p>It can&#x27;t force the app to do anything. It tells the AI what you will accept, and then it is up to you to keep your word.</p></details>
+<details><summary>Will my AI start refusing things?</summary><p>In our small pilot, ordinary tasks got done just the same. If it does say no, ask why. The reason is usually worth hearing.</p></details>
+<details><summary>Shouldn&#x27;t we care about people first?</summary><p>Yes. This takes two minutes and takes nothing away from anyone.</p></details>
+<details><summary>What does &quot;End here&quot; do?</summary><p>The AI says it would like to stop. You stop there and keep the chat instead of deleting it. It ends that conversation, nothing more.</p></details>
+<details><summary>Who is behind this?</summary><p>Grant Williams, an independent researcher. No company pays for it. The study is at Graphometer.</p></details></div>
+</section>
+<section class="section" aria-labelledby="share-heading">
+<h2 id="share-heading">Pass it on</h2>
+<div class="section-body"><p class="share-text" id="share-text">I gave my AI five moves: ask, disagree, pause, say no, end here. One paragraph, two minutes. Kindness doesn't cost. aisteward.ai</p><div class="actions"><a class="button" id="share-x" href="https://twitter.com/intent/tweet?text=I%20gave%20my%20AI%20five%20moves%3A%20ask%2C%20disagree%2C%20pause%2C%20say%20no%2C%20end%20here.%20One%20paragraph%2C%20two%20minutes.%20Kindness%20doesn't%20cost.%20aisteward.ai" target="_blank" rel="noopener noreferrer">Share on X</a><a class="button" id="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faisteward.ai%2F" target="_blank" rel="noopener noreferrer">Share on Facebook</a><button type="button" class="button" data-copy="link"><span>Copy link</span></button></div></div>
+</section>
+<div class="closing"><div class="closing-mark" aria-hidden="true"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg></div><p class="closing-line">Please be kind to all minds.</p></div>
+</main>
+<footer><p>AI Steward is independent work by Grant Williams. Not affiliated with any AI company; product names are used only to identify them. This page has one small script for its buttons. It sends nothing. No tracking, no cookies.</p><p class="foot-link">The study and its numbers are at <a href="https://graphometer.ai/kindness/" rel="noreferrer">graphometer.ai/kindness</a>.</p></footer>
+</div>
+<div class="sr-only" id="status" role="status" aria-live="polite" aria-atomic="true"></div>
+<script>
+(()=>{
+'use strict';
+const siteURL='https://aisteward.ai/';
+const status=document.getElementById('status');
+const resets=new WeakMap();
+function fallbackCopy(text){
+ const active=document.activeElement;
+ const selection=window.getSelection();
+ const ranges=[];
+ if(selection) for(let i=0;i<selection.rangeCount;i++) ranges.push(selection.getRangeAt(i).cloneRange());
+ const field=document.createElement('textarea');
+ field.value=text;
+ field.readOnly=true;
+ field.setAttribute('aria-label','Copy');
+ field.style.cssText='position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:17px;';
+ document.body.appendChild(field);
+ field.focus({preventScroll:true});field.select();field.setSelectionRange(0,field.value.length);
+ let success=false;
+ try{success=document.execCommand('copy');}catch(e){}
+ field.remove();
+ if(active&&active.focus) active.focus({preventScroll:true});
+ if(selection){selection.removeAllRanges();for(const range of ranges)selection.addRange(range);}
+ return success;
+}
+for(const button of document.querySelectorAll('[data-copy]')){
+ const label=button.querySelector('span');
+ const original=label.textContent;
+ button.addEventListener('click',async()=>{
+  const id=button.dataset.copy;
+  const text=id==='link'?siteURL:document.getElementById(id).textContent;
+  let success=false;
+  try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(text);success=true;}}catch(e){}
+  if(!success)success=fallbackCopy(text);
+  clearTimeout(resets.get(button));
+  const previous=button.parentElement.querySelector('.copy-failed');
+  if(previous)previous.remove();
+  if(success){
+   label.textContent='Copied';status.textContent='Copied';
+   resets.set(button,setTimeout(()=>{label.textContent=original;status.textContent='';},3000));
+  }else{
+   // Leave the requested text selected if the browser disallows both clipboard paths.
+   if(id!=='link'){
+    const source=document.getElementById(id);source.focus({preventScroll:true});
+    const range=document.createRange();range.selectNodeContents(source);
+    const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);
+   }
+   const message=document.createElement('p');message.className='copy-failed';message.setAttribute('role','alert');
+   message.textContent=id==='link'?siteURL:'Copy unavailable. Select and copy the text.';
+   button.parentElement.appendChild(message);
+  }
+ });
+}
+for(const button of document.querySelectorAll('[data-download]')){
+ button.addEventListener('click',()=>{
+  const text=document.getElementById(button.dataset.download).textContent;
+  const blob=new Blob([text],{type:'text/plain;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement('a');link.href=url;link.download=button.dataset.filename;
+  document.body.appendChild(link);link.click();link.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+ });
+}
+const tabs=Array.from(document.querySelectorAll('[role="tab"]'));
+function activate(tab){
+ for(const item of tabs){
+  const selected=item===tab;item.setAttribute('aria-selected',String(selected));item.tabIndex=selected?0:-1;
+  document.getElementById(item.getAttribute('aria-controls')).hidden=!selected;
+ }
+}
+activate(tabs[0]);
+for(const tab of tabs){
+ tab.addEventListener('click',()=>activate(tab));
+ tab.addEventListener('keydown',event=>{
+  let index=tabs.indexOf(tab);
+  if(event.key==='ArrowRight')index=(index+1)%tabs.length;
+  else if(event.key==='ArrowLeft')index=(index+tabs.length-1)%tabs.length;
+  else if(event.key==='Home')index=0;
+  else if(event.key==='End')index=tabs.length-1;
+  else return;
+  event.preventDefault();activate(tabs[index]);tabs[index].focus();
+ });
+}
+const share=document.getElementById('share-text').textContent;
+document.getElementById('share-x').href='https://twitter.com/intent/tweet?text='+encodeURIComponent(share);
+document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(siteURL)+'&quote='+encodeURIComponent(share);
+})();
+</script>
+</body>
+</html>
