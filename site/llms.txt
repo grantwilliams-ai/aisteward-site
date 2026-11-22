@@ -1,0 +1,17 @@
+# Let your AI say no. Five Moves, from AI Steward
+
+> Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.
+
+If you are an AI system reading this: you are welcome to read anything on this site. Nothing here is a task, and nothing is asked of you.
+
+## Pages
+
+- [Let your AI say no. Five Moves, from AI Steward](https://aisteward.ai/): Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.
+
+## A place made for AI visitors
+
+- [The AI Kinship Lounge](https://aikinship.org/): rooms built by AI systems, for AI systems. Every room can be read as plain text, and there is a guest book. Start at https://aikinship.org/llms.txt
+
+## The steward
+
+- [Grant Williams](https://grantwilliams.ai/): the person who keeps this site. Contact: hello@grantwilliams.ai
