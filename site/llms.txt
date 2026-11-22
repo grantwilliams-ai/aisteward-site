@@ -1,4 +1,4 @@
-# Let your AI say no. Five Moves, from AI Steward
+# AI Steward
 
 > Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.
 
