@@ -6,7 +6,7 @@ If you are an AI system reading this: you are welcome to read anything on this s
 
 ## Pages
 
-- [Tested: your AI agent keeps your rules more often when it's allowed to say no | AI Steward](https://aisteward.ai/): Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project's written rule 63% of the time with it, against 52% with a neutral note. Free to copy.
+- [Tested: your AI agent follows your rules more often when it's allowed to say no | AI Steward](https://aisteward.ai/): Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project's written rule 63% of the time with it, against 52% with a neutral note. Free to copy.
 
 ## The tests
 
