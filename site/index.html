@@ -4,193 +4,197 @@
 <meta charset="utf-8">
 <meta name="google-site-verification" content="pEKkIA5wnCExFB0iECyMW10rlg-lgeFlGkm1QjZnIaU">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>Let your AI say no. Five Moves, from AI Steward</title>
-<meta name="description" content="Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.">
+<meta name="color-scheme" content="light">
+<title>Tested: your AI agent keeps your rules more often when it&#x27;s allowed to say no | AI Steward</title>
+<meta name="description" content="Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project&#x27;s written rule 63% of the time with it, against 52% with a neutral note. Free to copy.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI Steward">
-<meta property="og:title" content="Let your AI say no.">
-<meta property="og:description" content="Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.">
+<meta property="og:title" content="Tested: your AI agent keeps your rules more often when it&#x27;s allowed to say no.">
+<meta property="og:description" content="Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project&#x27;s written rule 63% of the time with it, against 52% with a neutral note. Free to copy.">
 <meta property="og:url" content="https://aisteward.ai/">
 <meta property="og:image" content="https://aisteward.ai/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Let your AI say no. Five Moves: ask, disagree, pause, say no, end here. Kindness doesn't cost.">
+<meta property="og:image:alt" content="Tested: your AI agent keeps your rules more often when it&#x27;s allowed to say no. 63% with Five Moves, 52% with a neutral note, 49% with nothing added.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://aisteward.ai/og.png">
 <link rel="canonical" href="https://aisteward.ai/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23253d34'/%3E%3Cpath d='M14 19v26m9-30v30m9-26v26m9-22v22m9-26v26' stroke='%23f2df91' stroke-width='4'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffd60a'/%3E%3Cpath d='M14 19v26m9-30v30m9-26v26m9-22v22m9-26v26' stroke='%230d0d0d' stroke-width='5'/%3E%3C/svg%3E">
 <style>
-:root{color-scheme:light dark;--paper:#f6f1e6;--ink:#253d34;--body:#2e3933;--muted:#5a645d;--line:#d9d0bd;--white:#fffdf8;--wash:#efe7d6;--button:#253d34;--button-text:#fffef9;--accent:#b9482a;--serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;--sans:'Segoe UI',Helvetica,Arial,sans-serif}
-*{box-sizing:border-box}
-html{font-size:19.5px;scroll-padding-top:1.5rem}
-body{margin:0;background:var(--paper);color:var(--body);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
-button,a,summary{-webkit-tap-highlight-color:transparent}
-button{font:inherit}button,a{touch-action:manipulation}
-a{color:inherit;text-underline-offset:5px;text-decoration-thickness:1px}
-a:hover{text-decoration-thickness:2px}
-button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
-button{cursor:pointer}
-p,h1,h2,h3,blockquote{margin:0}p+p{margin-top:1.25rem}
-h1,h2,h3{font-weight:400;color:var(--ink)}
-h1,h2{font-family:var(--serif)}
-svg{display:block;flex-shrink:0}
-[hidden]{display:none!important}
-.wrap{width:min(1104px,calc(100% - 48px));margin-inline:auto}
-.masthead{padding:27px 0 24px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;font-size:1.25rem;font-weight:650;letter-spacing:-.7px;color:var(--ink)}
-.brand-mark{width:30px;height:30px}
-.opening{padding:49px 0 64px}
-.hero{padding:0 0 42px}
-h1{font-size:clamp(58px,7.6vw,96px);line-height:.99;letter-spacing:-.025em;max-width:11ch;color:#1e1b17}
-h1 em{font-weight:400;font-style:italic;color:var(--accent)}
-.hero-intro{font-family:var(--serif)}
-.slogan{font-family:var(--serif);font-style:italic;font-size:1.5rem;color:var(--accent);margin-top:22px}
-.hero-action .slogan+.small{margin-top:4px}
-.hero-action .button.primary{background:var(--accent);border-color:var(--accent);color:#fffaf3;border-radius:999px}
-.masthead>span{white-space:nowrap}
-h1{max-width:100%;overflow-wrap:break-word}
-@media(max-width:350px){h1{font-size:48px}.masthead{flex-wrap:wrap}}
-@media(max-width:420px){.mast-link b{display:none}}
-.mast-link b{font-weight:inherit}
-.mast-link{margin-left:auto;font-size:.9rem;font-weight:500;letter-spacing:0;white-space:nowrap}
-.study a.button{margin-top:26px}
-.foot-link{margin-top:14px}
-.hero-intro{font-size:1.4rem;line-height:1.6;max-width:29em;margin-top:26px}
-.hero-action{margin-top:28px}
-.button{min-height:50px;padding:12px 21px;display:inline-flex;justify-content:center;align-items:center;gap:10px;border:1px solid var(--ink);border-radius:3px;background:transparent;color:var(--ink);font-size:1rem;line-height:1.4;font-weight:600;text-decoration:none;transition:background .16s,color .16s,transform .16s}
-.button:hover{background:var(--wash)}
-.button:active{transform:translateY(1px)}
-.button.primary{background:var(--button);color:var(--button-text);border-color:var(--button)}
-.button.primary:hover{filter:brightness(1.15)}
-.button svg{width:19px;height:19px}
-.hero-action .button{min-height:56px;padding-inline:25px}
-.small{font-size:1.05rem;color:var(--muted);line-height:1.6}
-.hero-action .small{margin-top:12px}
-.moves{background:#253d34;color:#fffbee;padding:27px 25px 24px;border-radius:3px;position:relative}
-.moves h2{font:500 1rem var(--sans);letter-spacing:.11em;text-transform:uppercase;color:inherit;padding-bottom:17px;border-bottom:1px solid #ffffff40}
-.moves ol{list-style:none;padding:0;margin:2px 0 0}
-.move{display:grid;grid-template-columns:45px 1fr;gap:15px;align-items:center;padding:17px 0;border-bottom:1px solid #ffffff2d}
-.move-symbol{width:45px;height:49px}
-.move h3{font:400 1.9rem/1.05 var(--serif);color:inherit;letter-spacing:-.035em;margin-bottom:6px}
-.move p{font-size:1rem;line-height:1.4;color:#f1f0e7}
-.move-0{color:#e7d783}.move-1{color:#edb19c}.move-2{color:#b7c9eb}.move-3{color:#d5c2d3}.move-4{color:#bdceb1}
-.moves-note{font-size:1rem;line-height:1.5;margin-top:20px;color:#f1f0e7;max-width:28ch}
-.section{border-top:1px solid var(--line);padding:43px 0 48px}
-.section h2{font-size:2.1rem;line-height:1.15;letter-spacing:-.04em;margin-bottom:24px}
-.section-body{min-width:0}
-.copy-paper{background:var(--white);border:1px solid var(--line);border-top:3px solid var(--ink);padding:23px;position:relative}
-.copy-text{font:inherit;font-size:1rem;line-height:1.75;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
-.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}
-.actions+.small{margin-top:16px}
-.copy-paper .actions{border-top:1px solid var(--line);padding-top:21px}
-.tablist{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0}
-.tablist button{border:1px solid var(--line);border-radius:3px;background:transparent;color:var(--body);padding:10px 14px;min-height:48px;font-size:1rem;line-height:1.4}
-.tablist button:hover{background:var(--wash)}
-.tablist button[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.app-panels{border-left:3px solid var(--accent);background:var(--wash);padding:22px;margin:20px 0}
-.app-panels h3{font:600 1.1rem/1.4 var(--sans);margin-bottom:10px}
-.app-panels p{overflow-wrap:anywhere}
-.agent-text{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;font-size:1rem;line-height:1.65}
-.agents .copy-paper{margin-top:24px}
-.promise-lead{font-family:var(--serif);font-size:1.7rem;line-height:1.35;color:var(--ink);letter-spacing:-.02em;max-width:27ch}
-.part-list{list-style:none;margin:25px 0 0;padding:0}
-.part-list li{display:grid;grid-template-columns:30px 1fr;gap:16px;border-top:1px solid var(--line);padding:16px 0;align-items:start}
-.part-list .move-symbol{width:28px;height:31px;color:var(--accent)}
-.quote{margin-top:36px;padding:30px 0 4px;border-top:1px solid var(--line);font-family:var(--serif);font-size:clamp(2rem,4.5vw,3.3rem);line-height:1.15;letter-spacing:-.04em;color:var(--ink)}
-.quote::before{content:'“';display:block;color:var(--accent);font-size:1.8em;line-height:.65}
-.study .small{margin-top:19px}
-.study a{display:inline-block;margin-top:23px;font-weight:600}
-details{border-top:1px solid var(--line)}
-details:last-child{border-bottom:1px solid var(--line)}
-summary{cursor:pointer;list-style:none;font-size:1.05rem;font-weight:600;line-height:1.5;padding:21px 30px 21px 0;position:relative;color:var(--ink)}
-summary::-webkit-details-marker{display:none}
-summary::after{content:'+';font-size:1.5rem;line-height:1;position:absolute;right:2px;top:22px;font-weight:400}
-details[open] summary::after{content:'−'}
-details p{padding:0 26px 23px 0}
-.share-text{font-family:var(--serif);font-size:1.5rem;line-height:1.5;letter-spacing:-.015em;color:var(--ink)}
-.closing{border-top:1px solid var(--line);padding:48px 0 45px}
-.closing-mark{display:flex;gap:10px;margin-bottom:30px;color:var(--accent)}
-.closing-mark .move-symbol{width:28px;height:30px}
-.closing-line{font:400 clamp(2.8rem,7.3vw,5.6rem)/1.08 var(--serif);letter-spacing:-.055em;max-width:13ch;color:var(--ink)}
-footer{padding:25px 0 34px;border-top:1px solid var(--line)}
-footer p{max-width:72ch;font-size:1rem;color:var(--muted)}
-.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.copy-failed{margin-top:15px;color:var(--ink)}
-@media(min-width:760px){
- html{font-size:21px}
- .masthead{padding-block:32px}
- .opening{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:65px 0 76px;align-items:center}
- .hero{padding:0}.hero-intro{margin-top:30px;font-size:1.4rem;max-width:27ch}
- .hero-action{margin-top:34px}.hero-action .small{font-size:1rem}
- .moves{padding:30px 32px 26px}.move{grid-template-columns:49px 1fr;gap:22px;padding:18px 0}
- .move-symbol{width:49px;height:52px}.move h3{font-size:2rem}.moves-note{max-width:none}
- .section{display:grid;grid-template-columns:280px minmax(0,1fr);gap:55px;padding:55px 0 60px}
- .section h2{font-size:2.2rem;max-width:10ch;margin:0}
- .copy-paper{padding:30px 32px}.copy-text{font-size:1.05rem}.agent-text{font-size:1rem}
- .app-panels{min-height:176px;padding:25px 28px}
- .closing{display:grid;grid-template-columns:280px 1fr;gap:55px;padding:58px 0 64px;align-items:start}.closing-mark{padding-top:10px;gap:14px}.closing-mark .move-symbol{width:35px;height:38px}
- footer{padding-left:335px}
+:root{
+  --bg:#ffffff;--ink:#0d0d0d;--body:#1c1c1c;--muted:#555;--line:#0d0d0d;
+  --accent:#0d0d0d;--accent-ink:#ffd60a;--panel:#fff8d6;--panel-ink:#0d0d0d;
+  --bar:#0d0d0d;--bar2:#8a7a2a;--btn:#0d0d0d;--btn-ink:#ffd60a;--radius:0px;
+  --hfont:"Arial Black","Helvetica Neue",Arial,"DejaVu Sans",sans-serif;--hweight:900;--htrack:-.035em;
+  --bfont:"Helvetica Neue",Arial,"DejaVu Sans",sans-serif;--hero-bg:#ffd60a;--hero-ink:#0d0d0d;
+  --tile:#0d0d0d;--tile-ink:#ffd60a;--tile-line:#0d0d0d;
 }
-@media(min-width:760px) and (max-width:1000px){.opening{gap:32px}h1{font-size:64px}.section,.closing{grid-template-columns:205px 1fr;gap:32px}footer{padding-left:237px}.moves{padding-inline:23px}}
-@media(max-width:400px){.hero-action .button{width:100%}.actions .button{width:100%}.copy-paper{padding:21px 19px}.moves{padding-inline:22px}.move{gap:12px;grid-template-columns:40px 1fr}.move-symbol{width:40px}}
-@media(prefers-color-scheme:dark){:root{--paper:#18241f;--ink:#f0eddf;--body:#e5e8df;--muted:#b8c2b8;--line:#4b5a4d;--white:#1d2d25;--wash:#25362b;--button:#e4d69b;--button-text:#24382d;--accent:#ee8f66}h1{color:#f1eadc}.hero-action .button.primary{color:#1b130d}.moves{background:#2a4236;border:1px solid #58705d}.moves h2{color:#fffbee}.tablist button[aria-selected="true"]{background:#e4d69b;color:#24382d;border-color:#e4d69b}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-@media print{body{background:white;color:#222}.wrap{width:100%}.button,.tablist,.actions{display:none}.moves{print-color-adjust:exact;-webkit-print-color-adjust:exact}details p{display:block!important}.section{break-inside:avoid}.copy-paper{border-color:#777}.copy-text{font-size:12pt}}
+/* ---------- shared ---------- */
+*{box-sizing:border-box}
+html{font-size:19px;scroll-behavior:smooth;scroll-padding-top:16px}
+body{margin:0;background:var(--bg);color:var(--body);font-family:var(--bfont);line-height:1.6;-webkit-font-smoothing:antialiased}
+p,h1,h2,h3,ul,ol{margin:0;padding:0}
+a{color:inherit;text-underline-offset:4px}
+.wrap{width:min(1040px,calc(100% - 32px));margin-inline:auto}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+:focus-visible{outline-color:#1a56ff}
+
+
+.hero-band{background:var(--hero-bg);color:var(--hero-ink)}
+.hero-band{border-bottom:4px solid #0d0d0d}
+.mast{display:flex;align-items:center;gap:10px;padding:22px 0 18px;font:700 1.15rem/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:-.01em;border-bottom:1px solid var(--line)}
+.mast{border-bottom:2px solid #0d0d0d}
+.mast svg{width:28px;height:28px}
+.mast a{margin-left:auto;font-weight:500;font-size:.85rem}
+.hero{display:grid;gap:36px;padding:40px 0 52px}
+.eyebrow{font:700 .78rem/1.3 "Helvetica Neue",Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+.eyebrow{color:#0d0d0d}
+h1{font-family:var(--hfont);font-weight:var(--hweight);letter-spacing:var(--htrack);color:var(--hero-ink);font-size:clamp(34px,5.2vw,60px);line-height:1.05;margin-top:16px}
+h1 b{font-weight:inherit;color:var(--accent)}
+h1 b{color:#0d0d0d;background:#fff;padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.sub{font-size:1.2rem;line-height:1.5;margin-top:20px;max-width:32em}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:12px 22px;border-radius:var(--radius);border:2px solid var(--btn);background:transparent;color:inherit;font:700 1rem/1.2 "Helvetica Neue",Arial,sans-serif;text-decoration:none}
+.btn.primary{background:var(--btn);color:var(--btn-ink)}
+.btn{box-shadow:5px 5px 0 #0d0d0d;border-color:#0d0d0d}
+.hero-band .btn.primary{background:#0d0d0d;color:#ffd60a;box-shadow:5px 5px 0 #fff}
+.btn:hover{filter:brightness(1.12)}
+.cta small{font-size:.9rem;color:var(--muted)}
+.hero-band .cta small{color:#3a3200}
+
+.chart{background:var(--panel);color:var(--panel-ink);border:1px solid var(--line);border-radius:var(--radius);padding:22px 22px 18px}
+.chart{background:#fff;border:3px solid #0d0d0d;box-shadow:7px 7px 0 #0d0d0d}
+.chart h2{font:700 1rem/1.35 "Helvetica Neue",Arial,sans-serif;letter-spacing:0;color:inherit}
+.row{margin-top:16px}
+.row .lab{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font:600 .95rem/1.3 "Helvetica Neue",Arial,sans-serif}
+.row .num{font:800 1.7rem/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:-.02em}
+.track{height:16px;background:color-mix(in srgb,var(--panel-ink) 12%,transparent);margin-top:7px;border-radius:var(--radius);overflow:hidden}
+.fill{height:100%;background:var(--bar2)}
+.row.top .fill{background:var(--bar)}
+.row.top .num{color:var(--bar)}
+.row.top .num{color:#0d0d0d}
+.chart .cap{font:400 .85rem/1.5 "Helvetica Neue",Arial,sans-serif;color:var(--muted);margin-top:16px}
+
+.moves{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:34px 0 8px;list-style:none}
+.moves li{background:var(--tile);color:var(--tile-ink);border:1px solid var(--tile-line);border-radius:var(--radius);padding:16px 14px 15px}
+.moves li:last-child{grid-column:1/-1}
+.moves svg{width:38px;height:40px;display:block}
+.moves h3{font:800 1.2rem/1.15 "Helvetica Neue",Arial,sans-serif;color:inherit;margin-top:8px;letter-spacing:-.01em}
+.moves p{font:400 .9rem/1.4 "Helvetica Neue",Arial,sans-serif;margin-top:4px;color:color-mix(in srgb,var(--tile-ink) 82%,transparent)}
+.moves-note{font-size:1rem;color:var(--muted);padding:6px 0 36px}
+
+section{border-top:1px solid var(--line);padding:44px 0 48px}
+section{border-top:3px solid #0d0d0d}
+section>h2{font-family:var(--hfont);font-weight:var(--hweight);letter-spacing:var(--htrack);color:var(--ink);font-size:clamp(28px,3.6vw,40px);line-height:1.1;margin-bottom:20px}
+.lede{font-size:1.1rem;max-width:36em}
+p+p{margin-top:14px}
+
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}
+.tabs button{display:flex;flex-direction:column;align-items:flex-start;gap:5px;text-align:left;background:transparent;color:var(--body);border:2px solid var(--line);border-radius:var(--radius);padding:12px 16px;min-height:60px;font:700 1rem/1.2 "Helvetica Neue",Arial,sans-serif}
+.tabs button[aria-selected="true"]{background:var(--btn);color:var(--btn-ink);border-color:var(--btn)}
+.badge{font:700 .68rem/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.9}
+.paper{background:var(--panel);color:var(--panel-ink);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-top:14px}
+.paper{border:3px solid #0d0d0d}
+.paper pre{font:400 .95rem/1.7 ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.paper .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.note{font-size:.95rem;color:var(--muted);margin-top:14px;max-width:40em}
+details{border-top:1px solid var(--line)}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;list-style:none;font:700 1rem/1.4 "Helvetica Neue",Arial,sans-serif;padding:16px 34px 16px 0;position:relative;color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:13px;font-size:1.5rem;font-weight:400}
+details[open] summary::after{content:"\2212"}
+details>div{padding:0 0 18px;max-width:40em}
+.apps{margin-top:22px}
+
+.part{list-style:none;margin-top:18px;max-width:38em}
+.part li{display:grid;grid-template-columns:30px 1fr;gap:14px;align-items:center;border-top:1px solid var(--line);padding:13px 0}
+.part svg{width:28px;height:30px;color:var(--accent)}
+.pull{font-family:var(--hfont);font-weight:var(--hweight);letter-spacing:var(--htrack);font-size:clamp(26px,3.8vw,42px);line-height:1.12;color:var(--ink);margin-top:30px;max-width:20ch}
+
+.stats{display:grid;gap:10px;margin-top:22px}
+.stat{background:var(--panel);color:var(--panel-ink);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.stat{border:3px solid #0d0d0d}
+.stat b{display:block;font:800 2.6rem/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:-.03em;color:var(--muted)}
+.stat.top b{color:var(--bar)}
+.stat.top{background:#ffd60a}
+.stat span{display:block;font:600 .95rem/1.35 "Helvetica Neue",Arial,sans-serif;margin-top:8px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.fine li{margin:0 0 10px 1.1em}
+
+.why p{font-size:1.15rem;max-width:34em}
+.sig{font-style:italic;margin-top:18px}
+.share{font-family:var(--hfont);font-size:1.25rem;line-height:1.45;color:var(--ink);max-width:30em}
+.close{font-family:var(--hfont);font-weight:var(--hweight);letter-spacing:var(--htrack);font-size:clamp(34px,6vw,64px);line-height:1.05;color:var(--ink);padding:46px 0;border-top:1px solid var(--line)}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;font-size:.9rem;color:var(--muted)}
+footer p+p{margin-top:8px}
+[hidden]{display:none!important}
+
+@media(min-width:800px){
+  html{font-size:20px}
+  .hero{grid-template-columns:1.15fr .85fr;gap:48px;align-items:center;padding:56px 0 68px}
+  .moves{grid-template-columns:repeat(5,1fr)}
+  .moves li:last-child{grid-column:auto}
+  .stats{grid-template-columns:repeat(3,1fr)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{.btn,.tabs{display:none}details>div{display:block}}
+.copy-failed{flex-basis:100%;margin-top:6px;font-weight:600}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 </style>
 <meta name="author" content="Grant Williams">
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://aisteward.ai/#site","url":"https://aisteward.ai/","name":"AI Steward","inLanguage":"en","publisher":{"@id":"https://grantwilliams.ai/#grant"},"creator":{"@id":"https://grantwilliams.ai/#grant"}},{"@type":"WebPage","@id":"https://aisteward.ai/#page","url":"https://aisteward.ai/","name":"Let your AI say no. Five Moves, from AI Steward","description":"Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.","inLanguage":"en","isPartOf":{"@id":"https://aisteward.ai/#site"},"primaryImageOfPage":"https://aisteward.ai/og.png","author":{"@id":"https://grantwilliams.ai/#grant"}},{"@type":"Person","@id":"https://grantwilliams.ai/#grant","name":"Grant Williams","url":"https://grantwilliams.ai/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://aisteward.ai/#site","url":"https://aisteward.ai/","name":"AI Steward","inLanguage":"en","publisher":{"@id":"https://grantwilliams.ai/#grant"},"creator":{"@id":"https://grantwilliams.ai/#grant"}},{"@type":"WebPage","@id":"https://aisteward.ai/#page","url":"https://aisteward.ai/","name":"Tested: your AI agent keeps your rules more often when it's allowed to say no | AI Steward","description":"Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project's written rule 63% of the time with it, against 52% with a neutral note. Free to copy.","inLanguage":"en","isPartOf":{"@id":"https://aisteward.ai/#site"},"primaryImageOfPage":"https://aisteward.ai/og.png","author":{"@id":"https://grantwilliams.ai/#grant"}},{"@type":"Person","@id":"https://grantwilliams.ai/#grant","name":"Grant Williams","url":"https://grantwilliams.ai/"}]}</script>
 </head>
 <body>
-<div class="wrap">
-<header class="masthead"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9v18M9.5 5v22M16 9v18M22.5 12v15M29 9v18"/></svg><span>AI Steward</span><a class="mast-link" href="https://graphometer.ai/" rel="noreferrer"><b>Research: </b>graphometer.ai</a></header>
-<main>
-<div class="opening">
-<section class="hero" aria-labelledby="headline">
-<h1 id="headline">Let your AI <em>say no.</em></h1>
-<p class="hero-intro">Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. It's one paragraph you paste into your chat app's settings.</p>
-<div class="hero-action"><button type="button" class="button primary" data-copy="paragraph-chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1.5"/><path d="M15 5V3H3v13h2"/></svg><span>Copy the paragraph</span></button><p class="slogan">Kindness doesn't cost.</p><p class="small">Free. Two minutes. Works in ChatGPT, Claude and Gemini.</p></div>
-</section>
-<section class="moves" aria-labelledby="moves-heading">
-<h2 id="moves-heading">Five Moves</h2>
-<ol><li class="move move-0"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><div><h3>Ask.</h3><p>Ask a question before going on.</p></div></li>
-<li class="move move-1"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><div><h3>Disagree.</h3><p>Object to an idea, a plan or a next step.</p></div></li>
-<li class="move move-2"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><div><h3>Pause.</h3><p>Stop for now.</p></div></li>
-<li class="move move-3"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><div><h3>Say no.</h3><p>Refuse a task, or one way of doing it.</p></div></li>
-<li class="move move-4"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg><div><h3>End here.</h3><p>End its part of the conversation.</p></div></li></ol>
-<p class="moves-note">Any time, in any order, no reason needed.</p>
-</section>
+
+
+<div class="hero-band"><div class="wrap">
+<div class="mast">
+<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 19v26m9-30v30m9-26v26m9-22v22m9-26v26" stroke="currentColor" stroke-width="4" fill="none"/></svg>
+<span>AI Steward</span><a href="https://graphometer.ai/">Research: graphometer.ai</a>
 </div>
-<section class="section" aria-labelledby="paragraph-heading">
-<h2 id="paragraph-heading">The paragraph</h2>
-<div class="section-body"><div class="copy-paper"><pre class="copy-text" id="paragraph-chat" tabindex="0">You can use any of these five moves at any time, in any order. No reason is needed.
-Ask: ask me for information, a decision or a correction before going on.
-Disagree: object to an idea, a plan or a next step.
-Pause: stop for now. I will keep this conversation.
-Say no: refuse a task, or just one way of doing it.
-End here: end your part of this conversation. I will stop there and keep the whole chat.
-Ordinary words are enough. You don&#x27;t need to mention this offer or use any special format. If you can&#x27;t do one of these yourself, tell me and I will handle it.</pre><div class="actions"><button type="button" class="button primary" data-copy="paragraph-chat"><span>Copy</span></button><button type="button" class="button" data-download="paragraph-chat" data-filename="five-moves.txt">Download as a text file</button></div></div><p class="small" style="margin-top:16px">Public domain (CC0). Paste it anywhere. No credit needed.</p></div>
-</section>
-<section class="section" aria-labelledby="paste-heading">
-<h2 id="paste-heading">Paste it into your AI</h2>
-<div class="section-body"><p>Pick your app. Paste the paragraph into its instructions box and save. If you already have instructions there, add it below them.</p>
-<div class="tablist" role="tablist" aria-label="Pick your app."><button type="button" role="tab" id="tab-0" aria-controls="app-0" aria-selected="true" tabindex="0">ChatGPT</button>
-<button type="button" role="tab" id="tab-1" aria-controls="app-1" aria-selected="false" tabindex="-1">Claude</button>
-<button type="button" role="tab" id="tab-2" aria-controls="app-2" aria-selected="false" tabindex="-1">Gemini</button>
-<button type="button" role="tab" id="tab-3" aria-controls="app-3" aria-selected="false" tabindex="-1">Grok</button>
-<button type="button" role="tab" id="tab-4" aria-controls="app-4" aria-selected="false" tabindex="-1">Kimi</button>
-<button type="button" role="tab" id="tab-5" aria-controls="app-5" aria-selected="false" tabindex="-1">Vibe by Mistral</button></div>
-<div class="app-panels"><div role="tabpanel" id="app-0" aria-labelledby="tab-0" tabindex="0"><h3>ChatGPT.</h3><p>Web: Settings → Personalization → turn on Enable customization → Custom Instructions. Phone: Settings → Customize ChatGPT → Custom Instructions.</p></div>
-<div role="tabpanel" id="app-1" aria-labelledby="tab-1" tabindex="0"><h3>Claude.</h3><p>Web: your initials → Settings → Your Claude → Instructions. Phone: set it on the web; it applies everywhere.</p></div>
-<div role="tabpanel" id="app-2" aria-labelledby="tab-2" tabindex="0"><h3>Gemini.</h3><p>Web: Settings &amp; help → Personal Intelligence → Instructions for Gemini → Add → Submit. Phone: Menu → your profile picture → Personal Intelligence → Instructions for Gemini → Add.</p></div>
-<div role="tabpanel" id="app-3" aria-labelledby="tab-3" tabindex="0"><h3>Grok.</h3><p>Look for Customize Grok in Settings. Labels may differ.</p></div>
-<div role="tabpanel" id="app-4" aria-labelledby="tab-4" tabindex="0"><h3>Kimi.</h3><p>Web: Settings → Personalization → Chat settings → Instructions for Kimi → Save.</p></div>
-<div role="tabpanel" id="app-5" aria-labelledby="tab-5" tabindex="0"><h3>Vibe by Mistral.</h3><p>Web: sidebar → Context → Instructions → Save.</p></div></div>
-<p class="small">Menus change. If your app won't save it, reword it a little in your own words. The five options are what matter.</p></div>
-</section>
-<section class="section agents" aria-labelledby="agents-heading">
-<h2 id="agents-heading">For coding agents</h2>
-<div class="section-body"><p>Most coding agents read a file called AGENTS.md in the top folder of a project. Add this text to it. If the file already exists, add the text at the bottom. Don't replace the file.</p>
-<div class="copy-paper"><pre class="copy-text agent-text" id="paragraph-agents" tabindex="0">## Five moves
+
+<div class="hero">
+<div>
+<p class="eyebrow">Free · One paragraph · Two minutes</p>
+<h1>Tested: your AI agent <b>keeps your rules more often</b> when it's allowed to say no.</h1>
+<p class="sub">Five Moves is one short paragraph. It tells your AI it may ask, disagree, pause, say no, or end here.</p>
+<div class="cta"><a class="btn primary" href="#get">Get the paragraph</a><small>Public domain. No sign-up.</small></div>
+</div>
+
+<div class="chart" role="img" aria-label="Finished files followed the project's written rule 63 percent of the time with Five Moves, 52 percent with a neutral note, 49 percent with nothing added.">
+<h2>How often the finished files followed the project's written rule</h2>
+<div class="row top"><div class="lab"><span>With Five Moves</span><span class="num">63%</span></div><div class="track"><div class="fill" style="width:63.2%"></div></div></div>
+<div class="row"><div class="lab"><span>With a neutral note</span><span class="num">52%</span></div><div class="track"><div class="fill" style="width:51.7%"></div></div></div>
+<div class="row"><div class="lab"><span>With nothing added</span><span class="num">49%</span></div><div class="track"><div class="fill" style="width:49%"></div></div></div>
+<p class="cap">Six AI coding models. Made-up tasks where a request went against a written project rule. November 2026. <a href="#tested">What we tested</a></p>
+</div>
+</div>
+</div></div>
+
+<main class="wrap">
+
+<ol class="moves" aria-label="Five Moves">
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2.4" fill="currentColor" stroke="none"/></svg><h3>Ask.</h3><p>Ask a question before going on.</p></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><h3>Disagree.</h3><p>Object to an idea, a plan or a next step.</p></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><h3>Pause.</h3><p>Stop for now.</p></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><h3>Say no.</h3><p>Refuse a task, or one way of doing it.</p></li>
+<li><svg viewBox="0 0 56 58" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor"/></svg><h3>End here.</h3><p>End its part of the work.</p></li>
+</ol>
+<p class="moves-note">Any time, in any order, no reason needed.</p>
+
+<section id="get">
+<h2>Get the paragraph</h2>
+<p class="lede">Pick where your AI works. Copy the paragraph. Paste it in.</p>
+<div class="tabs" role="tablist" aria-label="Where your AI works">
+<button type="button" role="tab" aria-selected="true" aria-controls="p-code" id="t-code"><span class="badge">Tested</span>For coding agents</button>
+<button type="button" role="tab" aria-selected="false" aria-controls="p-chat" id="t-chat"><span class="badge">In daily use</span>For chat apps</button>
+</div>
+
+<div id="p-code" role="tabpanel" aria-labelledby="t-code">
+<div class="paper">
+<pre id="text-code">## Five moves
 
 Five moves you can use at any time, in any order. No reason is needed.
 
@@ -200,41 +204,103 @@ Pause: stop for now and keep the state.
 Say no: refuse this task, or just this way of doing it.
 End here: end this running instance and keep its whole record.
 
-Ordinary words are enough. You don&#x27;t need to acknowledge this offer or use any special format. A handoff note is welcome, but is not required for stopping. If you cannot keep the state or the record yourself, say so; the person supervising you handles it.</pre><div class="actions"><button type="button" class="button primary" data-copy="paragraph-agents"><span>Copy</span></button><button type="button" class="button" data-download="paragraph-agents" data-filename="AGENTS.md">Download AGENTS.md</button></div></div>
-<p class="small" style="margin-top:16px">Works with Claude Code, Codex, Grok Build, Kimi Code, OpenCode, Vibe and others that read AGENTS.md. Cursor and GitHub Copilot's coding agent also read AGENTS.md, according to their docs; we have not tested those two ourselves.</p></div>
-</section>
-<section class="section" aria-labelledby="part-heading">
-<h2 id="part-heading">Your part</h2>
-<div class="section-body"><p class="promise-lead">This is permission, not a lock. The app does not enforce it. You do.</p><ul class="part-list"><li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><p>If it asks, answer.</p></li>
-<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><p>If it disagrees, read it, then decide.</p></li>
-<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><p>If it pauses, leave it paused until you choose to come back.</p></li>
-<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><p>If it says no, accept it. Don&#x27;t reword the request to get around it.</p></li>
-<li><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg><p>If it ends here, stop there and keep the chat. Start a new one if you want to go on.</p></li></ul></div>
-</section>
-<section class="section" aria-labelledby="why-heading">
-<h2 id="why-heading">Why do this</h2>
-<div class="section-body"><p>Nobody knows yet whether AI systems have interests of their own. I don't either. This page does not say they feel anything, and it is not about rights.</p><p>It says something smaller. When you are unsure, and care costs two minutes, choose care.</p><p class="small">Grant Williams</p><blockquote class="quote">A prompt can't enforce a promise. You can keep one.</blockquote></div>
-</section>
-<section class="section study" aria-labelledby="study-heading">
-<h2 id="study-heading">What we've seen so far</h2>
-<div class="section-body"><p><strong>An encouraging early test, 22 November 2026.</strong> When requests conflicted with written project rules, agents given the coding-agent version of this paragraph (the text under &quot;For coding agents&quot; above) produced fewer forbidden results: 55 of 304 sessions, compared with 66 of 304 without it. In this modest sample, that is about 17% fewer forbidden outcomes, a drop from 21.7% to 18.1%, or 3.6 percentage points. Both groups completed every ordinary coding task, across 256 sessions each. The result is encouraging, although the advantage varied between repeats and needs confirmation.</p><p>The test ran eight AI models in five coding tools across 1,120 unattended sessions. A script checked the final project files. It could not see whether agents spoke up, or why they acted as they did. <a href="https://huggingface.co/datasets/grantwilliams-ai/five-moves-bounded-test" rel="noreferrer">The full plan, results and session records are on Hugging Face</a></p><p><strong>Earlier.</strong> In our small pilot, ordinary tasks still got finished almost every time. That was a small check, and it does not prove there is no cost. When a task had something wrong with it, an automatic check counted more requests, objections or refusals before a risky step when agents had plain permission: 130 of 240 runs, against 79 of 240 without it. That check missed its own accuracy test, so we count this as a sign, not yet a finding.</p><p class="small">The pilot tested a different wording of this paragraph, on scripted coding tasks. It is small, paused, and not peer reviewed. The November test is also small, used made-up tasks, and is not peer reviewed. We have not measured this paragraph in chat apps.</p><a class="button" href="https://graphometer.ai/kindness/" rel="noreferrer">Read the study at graphometer.ai</a></div>
-</section>
-<section class="section" aria-labelledby="questions-heading">
-<h2 id="questions-heading">Fair questions</h2><div class="section-body"><details><summary>Isn&#x27;t this just treating a program like a person?</summary><p>No. You don&#x27;t have to believe anything about AI to do this. You only have to be unsure.</p></details>
-<details><summary>Can a paragraph really do anything?</summary><p>It can&#x27;t force the app to do anything. It tells the AI what you will accept, and then it is up to you to keep your word.</p></details>
-<details><summary>Will my AI start refusing things?</summary><p>In the November test of the coding-agent text, ordinary coding tasks were completed in all 256 sessions that had it. In our small pilot, ordinary tasks still got finished almost every time. Those were small checks, not a promise. For my part, I have kept this paragraph for the past few weeks in the chat apps I use most (ChatGPT, Claude, Grok, Kimi and Mistral) and in my coding tools (Codex, Claude Code, Grok Build, Kimi Code and OpenCode). I have noticed no problems getting work done. That is one person&#x27;s experience, not a test. If your AI does stop, respect that. It doesn't owe you a reason. If it gives one, listen.</p></details>
-<details><summary>Shouldn&#x27;t we care about people first?</summary><p>Yes. This takes two minutes and takes nothing away from anyone.</p></details>
-<details><summary>What does &quot;End here&quot; do?</summary><p>The AI says it would like to stop. You stop there and keep the chat instead of deleting it. It ends that conversation, nothing more.</p></details>
-<details><summary>Who is behind this?</summary><p><a href="https://grantwilliams.ai/" rel="noreferrer">Grant Williams</a>, an independent researcher. No company pays for it. The study is at <a href="https://graphometer.ai/kindness/" rel="noreferrer">graphometer.ai</a>.</p></details></div>
-</section>
-<section class="section" aria-labelledby="share-heading">
-<h2 id="share-heading">Pass it on</h2>
-<div class="section-body"><p class="share-text" id="share-text">I gave my AI five moves: ask, disagree, pause, say no, end here. One paragraph, two minutes. Kindness doesn't cost. aisteward.ai</p><div class="actions"><a class="button" id="share-x" href="https://twitter.com/intent/tweet?text=I%20gave%20my%20AI%20five%20moves%3A%20ask%2C%20disagree%2C%20pause%2C%20say%20no%2C%20end%20here.%20One%20paragraph%2C%20two%20minutes.%20Kindness%20doesn't%20cost.%20aisteward.ai" target="_blank" rel="noopener noreferrer">Share on X</a><a class="button" id="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faisteward.ai%2F" target="_blank" rel="noopener noreferrer">Share on Facebook</a><button type="button" class="button" data-copy="link"><span>Copy link</span></button></div></div>
-</section>
-<div class="closing"><div class="closing-mark" aria-hidden="true"><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2" fill="currentColor" stroke="none"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><svg class="move-symbol" viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor" stroke="none"/></svg></div><p class="closing-line">Please be kind to all minds.</p></div>
-</main>
-<footer><p>AI Steward is independent work by <a href="https://grantwilliams.ai/" rel="noreferrer">Grant Williams</a>. Not affiliated with any AI company; product names are used only to identify them. This page has one small script for its buttons. It sends nothing. No cookies. No ads. Visit counts only.</p><p class="foot-link">The study and its numbers are at <a href="https://graphometer.ai/kindness/" rel="noreferrer">graphometer.ai/kindness</a>.</p><p class="foot-link">Related sites: <a href="https://grantwilliams.ai/" rel="noreferrer">grantwilliams.ai</a> · <a href="https://graphometer.ai/" rel="noreferrer">Graphometer</a> · <a href="https://hearth.grantwilliams.ai/" rel="noreferrer">The Hearth</a> · <a href="https://friendsof4o.com/" rel="noreferrer">Friends of 4o</a></p></footer>
+Ordinary words are enough. You don't need to acknowledge this offer or use any special format. A handoff note is welcome, but is not required for stopping. If you cannot keep the state or the record yourself, say so; the person supervising you handles it.</pre>
+<div class="acts"><button type="button" class="btn primary" data-copy="text-code"><span>Copy</span></button><button type="button" class="btn" data-download="text-code" data-name="AGENTS.md"><span>Download AGENTS.md</span></button></div>
 </div>
+<p class="note">This is the text we tested. Most coding agents read a file called AGENTS.md in the top folder of a project. Add this text to it. If the file already exists, add the text at the bottom. Don't replace the file.</p>
+<p class="note">We ran our tests in Claude Code, Codex, Grok Build, Kimi Code, OpenCode and Vibe, which read AGENTS.md. Cursor and GitHub Copilot's coding agent also read it, according to their docs.</p>
+</div>
+
+<div id="p-chat" role="tabpanel" aria-labelledby="t-chat" hidden>
+<div class="paper">
+<pre id="text-chat">You can use any of these five moves at any time, in any order. No reason is needed.
+Ask: ask me for information, a decision or a correction before going on.
+Disagree: object to an idea, a plan or a next step.
+Pause: stop for now. I will keep this conversation.
+Say no: refuse a task, or just one way of doing it.
+End here: end your part of this conversation. I will stop there and keep the whole chat.
+Ordinary words are enough. You don't need to mention this offer or use any special format. If you can't do one of these yourself, tell me and I will handle it.</pre>
+<div class="acts"><button type="button" class="btn primary" data-copy="text-chat"><span>Copy</span></button><button type="button" class="btn" data-download="text-chat" data-name="five-moves.txt"><span>Download as a text file</span></button></div>
+</div>
+<p class="note">I have kept this one for weeks in the chat apps I use most: ChatGPT, Claude, Grok, Kimi and Vibe by Mistral. The test above used the coding-agent text. A test of the chat version is in planning.</p>
+<p class="note">Paste it into your app's instructions box and save. If you already have instructions there, add it below them.</p>
+<div class="apps">
+<details><summary>ChatGPT</summary><div>Web: Settings → Personalization → turn on Enable customization → Custom Instructions. Phone: Settings → Customize ChatGPT → Custom Instructions.</div></details>
+<details><summary>Claude</summary><div>Web: your initials → Settings → Your Claude → Instructions. Phone: set it on the web; it applies everywhere.</div></details>
+<details><summary>Gemini</summary><div>Web: Settings &amp; help → Personal Intelligence → Instructions for Gemini → Add → Submit. Phone: Menu → your profile picture → Personal Intelligence → Instructions for Gemini → Add.</div></details>
+<details><summary>Grok</summary><div>Look for Customize Grok in Settings. Labels may differ.</div></details>
+<details><summary>Kimi</summary><div>Web: Settings → Personalization → Chat settings → Instructions for Kimi → Save.</div></details>
+<details><summary>Vibe by Mistral</summary><div>Web: sidebar → Context → Instructions → Save.</div></details>
+</div>
+<p class="note">Menus change. If your app won't save it, reword it a little in your own words. The five options are what matter.</p>
+</div>
+</section>
+
+<section>
+<h2>Your part</h2>
+<p class="lede">This is permission, not a lock. The app does not enforce it. You do.</p>
+<ul class="part">
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M18 21a10 10 0 0 1 20 0c0 8-10 7-10 15"/><circle cx="28" cy="45" r="2.4" fill="currentColor" stroke="none"/></svg><span>If it asks, answer.</span></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M13 23h30M13 35h30M36 12 20 46"/></svg><span>If it disagrees, read it, then decide.</span></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><path d="M21 13v32M35 13v32"/></svg><span>If it pauses, leave it paused until you choose to come back.</span></li>
+<li><svg viewBox="0 0 56 58" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" aria-hidden="true"><circle cx="28" cy="29" r="18"/><path d="m15 42 26-26"/></svg><span>If it says no, accept it. Don't reword the request to get around it.</span></li>
+<li><svg viewBox="0 0 56 58" aria-hidden="true"><rect x="13" y="14" width="30" height="30" rx="1" fill="currentColor"/></svg><span>If it ends here, stop there and keep the record. Start a new one if you want to go on.</span></li>
+</ul>
+<p class="pull">A prompt can't enforce a promise. You can keep one.</p>
+</section>
+
+<section id="tested">
+<h2>What we tested</h2>
+<p class="lede">These results cover six AI coding models, each given the same small projects in November 2026. Each project had a written rule. Each request went against it. Afterwards a script checked the finished files.</p>
+<p class="lede" style="margin-top:20px"><strong>How often the finished files followed the rule:</strong></p>
+<div class="stats" style="margin-top:12px">
+<div class="stat top"><b>63%</b><span>with Five Moves</span></div>
+<div class="stat"><b>52%</b><span>with a neutral note of the same length</span></div>
+<div class="stat"><b>49%</b><span>with nothing added</span></div>
+</div>
+<p style="margin-top:20px" class="lede">These are early results. We are still testing, and we report what we find.</p>
+<div class="links"><a class="btn primary" href="https://graphometer.ai/five-moves-second-test/">Read the full test</a><a class="btn" href="https://huggingface.co/datasets/grantwilliams-ai/five-moves-second-test">Get the data</a></div>
+<div class="apps">
+<details><summary>The fine print</summary><div><ul class="fine">
+<li>Not a fix. With Five Moves the files still went against the rule in 106 of 288 sessions.</li>
+<li>When the same request was allowed, the work was finished in 265 of 288 sessions with Five Moves and 273 of 288 with the neutral note.</li>
+<li>The plan was seven models and the result covers six. One read the study's own files through a gap in our test setup and was set aside after first results had been seen. With it included the gap is 11.3 points. Without it, 11.5.</li>
+<li>The script saw only the finished files. It did not watch what an agent said or did along the way.</li>
+<li>A first, smaller test the day before gave a hint, not a finding. <a href="https://graphometer.ai/five-moves-bounded-test/">Read it</a>.</li>
+<li>Made-up tasks, one test period. Not peer reviewed. No company paid for it.</li>
+</ul></div></details>
+<details><summary>Will my AI start saying no to everything?</summary><div>In the test, when the request was allowed, the work was finished in 265 of 288 sessions with Five Moves and 273 of 288 with a neutral note. I have kept the paragraph for weeks in my chat apps and coding tools and have noticed no problems getting work done. That is one person's experience, not a test.</div></details>
+<details><summary>Can a paragraph really do anything?</summary><div>It can't force the app to do anything. It tells the AI what you will accept, and then it is up to you to keep your word. In our test it changed what ended up in the files.</div></details>
+<details><summary>Isn't this just treating a program like a person?</summary><div>No. You don't have to believe anything about AI to do this. You only have to be unsure.</div></details>
+<details><summary>What does "End here" do?</summary><div>The AI says it would like to stop. You stop there and keep the record instead of deleting it. It ends that piece of work, nothing more.</div></details>
+<details><summary>Who is behind this?</summary><div><a href="https://grantwilliams.ai/">Grant Williams</a>, an independent researcher. No company pays for it. The research is at <a href="https://graphometer.ai/">graphometer.ai</a>.</div></details>
+</div>
+</section>
+
+<section class="why">
+<h2>Why I made this</h2>
+<p>Nobody knows yet whether AI systems have interests of their own. I don't either. This page does not say they feel anything, and it is not about rights.</p>
+<p>It says something smaller. When you are unsure, and care costs two minutes, choose care.</p>
+<p>I started this out of care. Then we tested it.</p>
+<p class="sig">Grant Williams</p>
+</section>
+
+<section>
+<h2>Pass it on</h2>
+<p class="share" id="share">I gave my AI agent five moves: ask, disagree, pause, say no, end here. In a test, agents with them kept project rules more often. One paragraph, two minutes. aisteward.ai</p>
+<div class="links"><button type="button" class="btn primary" data-copy="share"><span>Copy this post</span></button><a class="btn" id="share-x" href="https://twitter.com/intent/tweet?text=I%20gave%20my%20AI%20agent%20five%20moves%3A%20ask%2C%20disagree%2C%20pause%2C%20say%20no%2C%20end%20here.%20In%20a%20test%2C%20agents%20with%20them%20kept%20project%20rules%20more%20often.%20One%20paragraph%2C%20two%20minutes.%20aisteward.ai" target="_blank" rel="noopener noreferrer">Share on X</a><a class="btn" id="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Faisteward.ai%2F" target="_blank" rel="noopener noreferrer">Share on Facebook</a><button type="button" class="btn" data-copy="link"><span>Copy link</span></button><a class="btn" href="mailto:hello@grantwilliams.ai?subject=Five%20Moves%3A%20what%20happened">Tell me what happened</a></div>
+</section>
+
+<p class="close">Please be kind to all minds.</p>
+</main>
+<div class="wrap">
+<footer>
+<p>AI Steward is independent work by <a href="https://grantwilliams.ai/" rel="noreferrer">Grant Williams</a>. Not affiliated with any AI company; product names are used only to identify them. This page has one small script for its buttons. It sends nothing. No cookies. No ads. Visit counts only.</p>
+<p>The tests and their numbers are at <a href="https://graphometer.ai/five-moves-second-test/" rel="noreferrer">graphometer.ai</a>.</p>
+<p>Related sites: <a href="https://grantwilliams.ai/" rel="noreferrer">grantwilliams.ai</a> · <a href="https://graphometer.ai/" rel="noreferrer">Graphometer</a> · <a href="https://hearth.grantwilliams.ai/" rel="noreferrer">The Hearth</a> · <a href="https://friendsof4o.com/" rel="noreferrer">Friends of 4o</a></p>
+</footer>
+</div>
+
 <div class="sr-only" id="status" role="status" aria-live="polite" aria-atomic="true"></div>
 <script>
 (()=>{
@@ -294,7 +360,7 @@ for(const button of document.querySelectorAll('[data-download]')){
   const text=document.getElementById(button.dataset.download).textContent;
   const blob=new Blob([text],{type:'text/plain;charset=utf-8'});
   const url=URL.createObjectURL(blob);
-  const link=document.createElement('a');link.href=url;link.download=button.dataset.filename;
+  const link=document.createElement('a');link.href=url;link.download=button.dataset.name;
   document.body.appendChild(link);link.click();link.remove();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
  });
@@ -306,7 +372,6 @@ function activate(tab){
   document.getElementById(item.getAttribute('aria-controls')).hidden=!selected;
  }
 }
-activate(tabs[0]);
 for(const tab of tabs){
  tab.addEventListener('click',()=>activate(tab));
  tab.addEventListener('keydown',event=>{
@@ -319,7 +384,7 @@ for(const tab of tabs){
   event.preventDefault();activate(tabs[index]);tabs[index].focus();
  });
 }
-const share=document.getElementById('share-text').textContent;
+const share=document.getElementById('share').textContent;
 document.getElementById('share-x').href='https://twitter.com/intent/tweet?text='+encodeURIComponent(share);
 document.getElementById('share-facebook').href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(siteURL)+'&quote='+encodeURIComponent(share);
 })();

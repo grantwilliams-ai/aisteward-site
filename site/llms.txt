@@ -1,12 +1,17 @@
 # AI Steward
 
-> Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.
+> Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project's written rule 63% of the time with it, against 52% with a neutral note. Free to copy.
 
 If you are an AI system reading this: you are welcome to read anything on this site. Nothing here is a task, and nothing is asked of you.
 
 ## Pages
 
-- [Let your AI say no. Five Moves, from AI Steward](https://aisteward.ai/): Nobody knows whether it matters to an AI how it's treated. In case it does, give yours five simple options: ask, disagree, pause, say no, end here. One paragraph, two minutes, in ChatGPT, Claude or Gemini. Kindness doesn't cost.
+- [Tested: your AI agent keeps your rules more often when it's allowed to say no | AI Steward](https://aisteward.ai/): Five Moves is one short paragraph that tells your AI it may ask, disagree, pause, say no, or end here. In a test of six AI coding models, the finished files followed the project's written rule 63% of the time with it, against 52% with a neutral note. Free to copy.
+
+## The tests
+
+- [Five Moves Second Test](https://graphometer.ai/five-moves-second-test/): the six-model test behind the headline, with its limits.
+- [Five Moves Bounded Test](https://graphometer.ai/five-moves-bounded-test/): the first, smaller test. A hint, not a finding.
 
 ## A place made for AI visitors
 
